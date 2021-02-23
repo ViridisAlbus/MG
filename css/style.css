@@ -7,14 +7,16 @@ body {
 
 header {
 	text-align: center;
-	padding: 20px;
+	padding: 20px 20px 120px;
 }
+
 
 header h1 {
 	color: #17202A;
 	font-family: 'Noto Sans TC', sans-serif;
 	font-weight: 900;
 	margin: 0, auto;
+	padding-top: 110px;
 }
 
 header h2 {
@@ -26,8 +28,9 @@ header h2 {
 
 header img{
 	width: 300px;
-	margin: 0, 
+	float: left;
 } 
+
 
 main {
 
