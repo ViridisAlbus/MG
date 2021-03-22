@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+
+body, html{
+font-family: 'Noto Sans TC', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+h1{
+font-weight: 900;
+font-size: 35px;
+
+
+}
+
+.wrapper{ /* = wrapper */
+width: 960px;
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+.banner{ /* = hero-banner */
+background-color: #FFFFF0;
+min-height: 100vh;
+padding: 50px 20px;
+position: relative;
+overflow: hidden;
+}
+
+.banner .wrapper{
+	height: 464px;
+	position: absolute;
+	top: 50%;
+	margin-top: -232px;
+	left: 50%;
+	margin-left: -480px;
+}
+
+
+.banner h1{
+	color: black;
+	margin: 150px 0px 20px;
+}
+h2{
+}
+
+.banner h3{
+font-weight: bold;
+font-size: 20px;
+position: static;
+}
+
+
+
+.michael{
+background: url(img/relative-pot.png) no-repeat 0 0;
+background-size: 100%;
+width: 225px;
+height: 300px;
+position: relative; top: 50px; left: 50px;
+
+
+}
+
+
+
+/*
+<div class="banner">
+		<div class="headlines-banner"></div>
+		<h1>Priv. Doz. Dr. Michael Gorlitzer</h1>
+		<h3>Stationsführender Oberarzt am Herzzentrum Hietzing<br> 1. 	Chirurgischen Abteilung, Krankenhaus Wien-Hietzing<br>Zentrum für Herz- und Gefäßchirurgie</h3>
+		<div class="michael"></div>
+
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+				<li><a href="#">Zu meiner Person</a></li>
+				<li><a href="#">Schwerpunkte</a></li>
+				<li><a href="#">Ordination</a></li>
+				<li><a href="#">Kontakt</a></li> <!--#overview würde man zur Section Overview kommen-->
+			
+		</ul>
+
+		
+	</nav>
+
+	<div class="info">
+		<h3>Leistungen</h3>
+		<li>Beratung zur Vorbeugung von Herz- und Gefäßkrankheiten</li>
+			<li> Diagnose von Herz- und Gefäßkrankheiten</li>
+			<li>Planung und Durchführung der operativen Behandlung von Herz- und Gefäßerkrankungen</li>
+			<li>Behandlung und Nachsorge von Krampfadern und Venenerkrankungen</li>
+			<li>Betreuung nach Operationen von Herz- und Gefäßkrankheiten</li>
+
+	</div>
+
+	<div class="overview">
